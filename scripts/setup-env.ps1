@@ -1,0 +1,8 @@
+$env:JAVA_HOME = "E:\Android\Android Studio\jbr"
+$env:ANDROID_HOME = "E:\Android\Android-SDK"
+$env:NDK_HOME = "E:\Android\Android-SDK\ndk\29.0.13846066"
+$env:ROVO_KEYSTORE_PATH = "D:\projects-code\.global\certificates\android-sign.jks"
+$env:ROVO_STORE_PASSWORD = "Sign@091015"
+$env:ROVO_KEY_ALIAS = "rovo"
+$env:ROVO_KEY_PASSWORD = "Sign@091015"
+$env:PATH = "$env:JAVA_HOME\bin;$env:ANDROID_HOME\platform-tools;$env:NDK_HOME;$env:PATH"
